@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slau_calc", "slau_calc\slau_calc.csproj", "{6933FABD-EEFE-46A2-ADC6-6566DF281272}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6933FABD-EEFE-46A2-ADC6-6566DF281272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6933FABD-EEFE-46A2-ADC6-6566DF281272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6933FABD-EEFE-46A2-ADC6-6566DF281272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6933FABD-EEFE-46A2-ADC6-6566DF281272}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

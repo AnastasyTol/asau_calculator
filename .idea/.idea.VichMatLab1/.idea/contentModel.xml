@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_VichMatLab1.1412517545.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="VichMatLab1.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="slau_calc" t="IncludeRecursive">
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="slau_calc.csproj" t="IncludeRecursive" />
+        <e p="src" t="Include">
+          <e p="Exceptions" t="Include">
+            <e p="NotFoundLeadingElement.cs" t="Include" />
+          </e>
+          <e p="Lib" t="Include">
+            <e p="Coordinates.cs" t="Include" />
+            <e p="Fraction.cs" t="Include" />
+            <e p="Slau.cs" t="Include" />
+          </e>
+          <e p="Main.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+  </component>
+</project>
