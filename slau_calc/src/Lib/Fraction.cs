@@ -10,6 +10,11 @@ namespace slau_calc
             return String.Format("{0}/{1}", this.Numerator, this.Denominator);
         }
 
+        public double ToDouble()
+        {
+            return this.Numerator / this.Denominator;
+        }
+
         // Нужна еще нормализация дроби по алгоритму Евклида (НОД)
         protected int Numerator, Denominator;
 
@@ -25,6 +30,7 @@ namespace slau_calc
             this.Denominator = 1;
         }
         
+        // Приведени типа
         public static explicit operator Fraction(int value)
         {
             return new Fraction(value, 0);
@@ -100,6 +106,22 @@ namespace slau_calc
             return (double)b.Numerator / (double)b.Denominator != (double)a;
         }
         
+        
+        public static bool operator > (Fraction a, Fraction b)
+        {
+            if ((double) a.Numerator / (double) a.Denominator > (double) b.Numerator / (double) b.Denominator)
+                return true;
+            else
+                return false;
+        }
+        
+        public static bool operator < (Fraction a, Fraction b)
+        {
+            if ((double) a.Numerator / (double) a.Denominator < (double) b.Numerator / (double) b.Denominator)
+                return true;
+            else
+                return false;
+        }
         
 //        public override bool Equals(Object obj) 
 //        {
